@@ -1,0 +1,9 @@
+Os tipos primitivos são 
+- number
+- boolean 
+- string 
+
+Os outros tipos são 
+- Objetos 
+- Arrays
+- Null e undefined 
