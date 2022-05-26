@@ -1,0 +1,27 @@
+Eventos:
+    - mousedown
+    - mouseup
+    - mouseover
+    - mouseout 
+    - mousemove
+
+    - click 
+    - dbclick
+    - mouseleave 
+    - contextmenu 
+
+Ordem dos eventos:
+    mousedown -> mouseup -> click 
+
+Propriedades:
+    - screenX 
+    - screenY 
+    clientX
+    clientY
+    altKey
+    ctrlKey
+    shiftKey
+    metaKey
+    button
+    buttons
+    relatedTargets 
