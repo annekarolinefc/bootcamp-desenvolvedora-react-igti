@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Before unload</h1>
+    <a href="https://www.google.com">Google</a>
+</body>
+<script>
+    /*Utilizar a opção: TEM CERTEZA QUE DESEJA SAIR DA PÁGINA?*/
+    window.addEventListener("beforeunload", () => {
+        console.log("Antes de sair.")
+    })
+
+    window.addEventListener("unload", () => {
+        console.log("Saiu da página.");
+    })
+</script>
+</html>
