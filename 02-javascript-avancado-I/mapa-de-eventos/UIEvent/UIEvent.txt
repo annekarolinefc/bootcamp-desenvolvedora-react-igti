@@ -1,0 +1,11 @@
+Eventos:
+    - load
+    - unload 
+    - abort 
+    - error
+    - select
+    - resize 
+
+Propriedades:
+    - view 
+    - detail
