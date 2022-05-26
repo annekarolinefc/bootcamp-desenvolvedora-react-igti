@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Exemplo de mouseOver e MouseOut</p>
+    <p id="a">Passe o Mouse</p>
+</body>
+    <script>
+        let p = document.getElementById('a')
+        p.addEventListener('mouseover', mouseOver, false);
+        p.addEventListener('mouseout', mouseOut, false);
+
+        function mouseOver(event){
+            event.target.innerHTML = "O mouse esta no elemento"
+        }
+        function mouseOut(event){
+            event.target.innerHTML = "Passe o mouse"
+        }
+    </script>
+</html>
